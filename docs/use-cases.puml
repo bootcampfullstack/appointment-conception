@@ -1,0 +1,28 @@
+@startuml "use-cases"
+left to right direction
+
+actor Operator as o
+actor Admin as a 
+
+package Appointment {
+    usecase "Create Appointment" as UC1
+    usecase "Cancel Appointment" as UC2
+    usecase "Confirm Appointment" as UC3
+    usecase "Define Professional Schedule" as UC4
+    usecase "Search Client History" as UC5
+    usecase "Search Professional Availability Days" as UC6
+    usecase "Search Professional Availability Times" as UC7
+}
+
+o <|-right- a
+
+o --> UC1
+o --> UC2
+o --> UC3
+o --> UC5
+o --> UC6
+o --> UC7
+a --> UC4
+(UC7) ...> (UC1) : <<includes>>
+
+@enduml 
