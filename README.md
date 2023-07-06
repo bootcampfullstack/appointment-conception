@@ -60,6 +60,8 @@
     - Manutenção da disponibilidade do profissional: 
         Campos (dias e horários de trabalho).
         Ao mudar a disponibilidade de um profissional, manter os agendamentos em aberto.
+    - Manutenção de usuários. 
+        Campo: nome, email, password, phone, roles.
 
     Observação: Não remover dados com relacionamentos. 
 
