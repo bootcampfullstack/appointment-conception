@@ -1,0 +1,62 @@
+@startmindmap "end_points"
+* /api/v1
+
+    ** /appointments
+        ***[#LightGreen] GET, GET/{id}, POST, PUT
+          ****[#LightBlue] ADMIM, OPERATOR
+
+    ** /appointment-types
+        ***[#LightGreen] GET, GET/{id}
+            ****[#LightBlue] ADMIM, OPERATOR
+        ***[#LightGreen] POST, DELETE/{id}, PUT/{id}
+            ****[#LightBlue] ADMIN
+    
+    ** /areas
+        ***[#LightGreen] GET, GET/{id}
+            ****[#LightBlue] ADMIN, OPERATOR
+        ***[#LightGreen] POST, DELETE, PUT
+            ****[#LightBlue] ADMIN
+        *** /{id}/professionals
+            ****[#LightGreen] GET
+                *****[#LightBlue] ADMIN, OPERATOR
+
+
+    ** /clients
+        ***[#LightGreen] GET?, GET/{id}, DELETE/{id}, PUT/{id}, POST 
+            ****[#LightBlue] ADMIM, OPERATOR
+        *** /{id}/appointments
+            ****[#LightGreen] GET?
+                *****[#LightBlue] ADMIM, OPERATOR
+             
+    ** /professionals
+        ***[#LightGreen] GET, GET/{id} 
+            ****[#lightblue] ADMIM, OPERATOR
+        
+        ***[#LightGreen] POST, DELETE/{id}, PUT/{id}
+            ****[#LightBlue] ADMIN
+        
+        *** /{id}/appointments
+            ****[#LightGreen] GET?
+                *****[#LightBlue] ADMIM, OPERATOR
+        
+        *** /{id}/areas
+            ****[#LightGreen] GET
+                *****[#LightBlue] ADMIM
+
+        *** /{id}/availability-days?
+          ****[#LightGreen] GET
+                *****[#LightBlue] ADMIM, OPERATOR
+
+        *** /{id}/availability-times?
+          ****[#LightGreen] GET
+                *****[#LightBlue] ADMIM, OPERATOR
+        
+        *** /{id}/workdays
+            ****[#LightGreen] GET, POST, DELETE/{id}, PUT/{id}
+                *****[#LightBlue] ADMIM
+        
+    
+    ** /users
+      ***[#LightGreen] GET, GET/{id}, POST, DELETE/{id}, PUT/{id}
+            ****[#LightBlue] ADMIN
+@endmindmap
