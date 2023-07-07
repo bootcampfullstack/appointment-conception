@@ -72,7 +72,7 @@
 
 ## Diagramas
 ### Use Cases
-![Use Cases](/out/docs/use-cases/use-cases.png)
+![Use Cases](/out/docs/use_cases/use_cases.png)
 
 ### Model
 ![Model](/out/docs/model/model.png)
