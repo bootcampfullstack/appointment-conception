@@ -1,4 +1,4 @@
-@startuml "use-cases"
+@startuml "use_cases"
 left to right direction
 
 actor Operator as o
