@@ -1,0 +1,44 @@
+.previous-month:hover{
+    cursor: pointer;
+}
+
+.month-year {
+    font-weight: 500;
+}
+
+.next-month{
+    cursor: pointer;
+}
+
+.week-day{
+    font-weight: 500;
+    padding: 6px;
+    margin: 1px;
+}
+
+.day {
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 1px;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.day-off{
+    background-color: whitesmoke;
+    color: gray;
+}
+
+.day-available{
+    background-color: #6c757d;
+}
+
+.day-available:hover{
+    cursor: pointer;
+    background-color: #257325;
+}
+
+.day-selected {
+    background-color: #257325;
+}

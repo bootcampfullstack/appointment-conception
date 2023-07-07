@@ -1,0 +1,26 @@
+.time{
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 1px;
+    font-size: 0.9rem;
+    color: white;
+} 
+
+.time-off{
+    background-color: whitesmoke;
+    color: gray;
+}
+
+.time-available{
+    background-color: #6c757d;
+}
+
+.time-available:hover{
+    background-color: #257325;
+}
+
+.time-selected{
+    background-color: #257325;
+}
+
