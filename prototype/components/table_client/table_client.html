@@ -1,0 +1,46 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome </th>
+            <th scope="col">Telefone</th>
+            <th scope="col">Data Nascimento</th>
+            <th scope="col">Remover</th>
+        </tr>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col"><input class="form-control" placeholder="Filtrar pelo nome"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td><a href="/prototype/pages/client.html">Maria Lucia</a> </td>
+            <td>15 99705-3212</td>
+            <td>10/06/2000</td>
+            <td>
+                <img src="/prototype/components/table_client/svg/trash3-fill.svg" width="20" height="20" alt="next">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td><a href="/prototype/pages/client.html">Pedro Lucas Silva</a> </td>
+            <td>15 99721-5454</td>
+            <td>12/02/2001</td>
+            <td>
+                <img src="/prototype/components/table_client/svg/trash3-fill.svg" width="20" height="20" alt="next">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div id="paginator"></div>
+
+<script>
+$(function () {
+  $("#paginator").load("/prototype/components/paginator/paginator.html");
+});
+</script>
