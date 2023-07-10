@@ -1,0 +1,19 @@
+{
+    "date":"2023-06-26",
+    "startTime": "15:30:00",
+    "endTime": "16:00:00",
+    "comment": "no coments",
+    "type": {
+      "id": 1	
+    },
+    "area": {
+      "id": 2
+    },
+    "professional":  {
+      "id": 5
+    },
+    "client": {
+      "id": 2
+    }    
+  }
+  

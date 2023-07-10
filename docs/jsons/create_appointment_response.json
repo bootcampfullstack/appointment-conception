@@ -1,0 +1,22 @@
+{
+  "id": 35,
+  "date": "2023-06-19",
+  "startTime": "08:30:00",
+  "endTime": "09:00:00",
+  "status": "OPEN",
+  "client":{
+    "id": 2
+  },
+  "area":{
+    "id": 1
+  },
+  "professional":{
+    "id": 5,
+  "active": false
+  },
+  "type":{
+    "id": 1
+  }
+}
+  
+  
