@@ -76,3 +76,9 @@
 
 ### Model
 ![Model](/out/docs/model/model.png)
+
+### EndPoints
+![EndPoints](/out/docs/end_points/end_points.png)
+
+
+
