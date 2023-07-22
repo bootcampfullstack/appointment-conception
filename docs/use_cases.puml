@@ -23,6 +23,6 @@ o --> UC5
 o --> UC6
 o --> UC7
 a --> UC4
-(UC7) ...> (UC1) : <<includes>>
+(UC1) ...> (UC7) : <<includes>>
 
 @enduml 
