@@ -55,7 +55,7 @@ Person              <|--             Client
 Person              <|--             Professional
 Person              <|--             User
 Professional "0..*"  -d-     "0..*"  Area
-Professional         *-->    "0..*"  WorkScheduleItem
+Professional         o--     "0..*"  WorkScheduleItem
 Appointment          o-->    "0..1"  AppointmentType
 Appointment "0..*"   -u-     "0..1"  Client            
 Appointment "0..*"   -u-     "0..1"  Professional       
